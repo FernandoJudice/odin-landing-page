@@ -6,12 +6,16 @@ body {
     height: 100vh;
 }
 
+.header,.presentation,.information,.quote,.call-to-action,.footer {
+    padding: 0 200px;
+}
+
 .header, .presentation, .footer {
     background-color: #1F2937;
 }
 
 .header {
-    padding: 16px;
+    padding: 16px 200px;
     display: flex;
     align-items: center;
 }
@@ -38,9 +42,17 @@ body {
 }
 
 .presentation {
+    padding: 100px 200px;
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+}
+
+.site-intro{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-text {
@@ -49,13 +61,13 @@ body {
     color: #F9FAF8;
 }
 
-.site-intro{
-    flex: 1;
-}
-
 .presentation-image{
     flex: 1;
-    text-align: center;
+    background-color: #96989c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {

@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 
-.header,.quote,.call-to-action,.footer {
+.header,.footer {
     padding: 0 200px;
 }
 
@@ -133,8 +133,30 @@ body {
     color: #1F2937;
 }
 
+.call-to-action {
+    padding: 64px 200px;
+}
+
 .action-banner {
     background-color: #3882F6;
+    border-radius: 8px;
+    padding: 60px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.action-text {
+    flex: 1;
+}
+
+.call-to-action .sign-button {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.call-to-action button {
+    border: 2px solid white;
 }
 
 button {

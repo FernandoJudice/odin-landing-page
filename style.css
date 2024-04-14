@@ -6,6 +6,10 @@ body {
     height: 100vh;
 }
 
+.header, .presentation, .footer {
+    background-color: #1F2937;
+}
+
 .header {
     padding: 16px;
     display: flex;
@@ -50,6 +54,14 @@ body {
 
 .information {
     flex: 1;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.action-banner {
+    background-color: #3882F6;
 }
 
 .footer {

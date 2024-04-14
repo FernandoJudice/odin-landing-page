@@ -43,6 +43,12 @@ body {
     align-items: center;
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .site-intro{
     flex: 1;
 }

@@ -1,0 +1,23 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+
+}
+
+.presentation {
+    flex: 1;
+}
+
+.information {
+    flex: 1;
+}
+
+.footer {
+
+}

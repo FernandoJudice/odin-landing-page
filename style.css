@@ -7,15 +7,38 @@ body {
 }
 
 .header {
+    padding: 16px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
 }
 
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    flex: 1;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .presentation {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {

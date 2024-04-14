@@ -171,5 +171,7 @@ button {
 }
 
 .footer {
-
+    padding: 32px 200px;
+    text-align: center;
+    color: white;
 }

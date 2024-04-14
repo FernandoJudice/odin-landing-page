@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 
-.header,.presentation,.information,.quote,.call-to-action,.footer {
+.header,.quote,.call-to-action,.footer {
     padding: 0 200px;
 }
 
@@ -63,7 +63,7 @@ body {
     color: #F9FAF8;
 }
 
-.presentation-image{
+.presentation-image {
     flex: 1;
     background-color: #96989c;
     display: flex;
@@ -74,6 +74,44 @@ body {
 
 .information {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 200px;
+}
+
+.information-header {
+    padding: 12px;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight:900;
+}
+
+.info-container {
+    display: flex;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    padding: 32px;
+    gap: 12px;
+}
+
+.info-img {
+    box-sizing: border-box;
+    min-height: 160px;
+    flex: 1;
+    border: 8px solid;
+    border-radius: 24px;
+    border-color: #3882F6;
+}
+
+.info .secondary-text {
+    color: #1F2937;
+    text-align: center;
 }
 
 .quote {

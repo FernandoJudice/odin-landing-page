@@ -49,10 +49,12 @@ body {
 }
 
 .site-intro{
+    padding: 16px;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .main-text {
@@ -80,6 +82,17 @@ body {
 
 .action-banner {
     background-color: #3882F6;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
 
 .footer {
